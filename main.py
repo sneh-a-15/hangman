@@ -58,7 +58,7 @@ if __name__ == "__main__":
                 game_view.draw_feedback(response)
         game_view.draw_feedback("Game Over!")
         sleep(3)
-        if hangman.has_lost(): game_view.draw_feedback("You loose. :|")
+        if hangman.has_lost(): game_view.draw_feedback("You lose. :|")
         elif hangman.has_won(): game_view.draw_feedback("You win! :D")
 
         sleep(5)
